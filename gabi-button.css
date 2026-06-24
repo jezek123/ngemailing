@@ -1,8 +1,14 @@
 input[type="submit"][name="yt0"]{
-    font-size:0 !important;
+    color: transparent !important;
+    position: relative;
 }
 
-input[type="submit"][name="yt0"]::before{
-    content:"Chci být mezi prvními";
-    font-size:14px;
+input[type="submit"][name="yt0"]::after{
+    content: "Chci být mezi prvními";
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
