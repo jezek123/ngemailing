@@ -1,5 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var btn = document.querySelector('input[type="submit"][name="yt0"]');
+console.log('GABI SCRIPT LOADED');
+
+window.addEventListener('load', function() {
+    const btn = document.querySelector('input[type="submit"]');
+    console.log(btn);
 
     if (btn) {
         btn.value = 'Chci být mezi prvními';
